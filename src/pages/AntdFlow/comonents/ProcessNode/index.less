@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  display: block;
+  background: #fff;
+  overflow: 'hidden';
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+
+  .cardBody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      margin-right: 10px;
+      color: @blue-5;
+      font-size: 24px;
+    }
+  }
+}
+.customButton {
+  color: #ffa940 !important;
+
+  &:hover {
+    border-color: #ffa940 !important;
+  }
+
+  &:active {
+    border-color: #ffa940 !important;
+  }
+}
